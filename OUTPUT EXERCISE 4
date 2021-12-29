@@ -1,0 +1,14 @@
+Items are: index 0 = 0
+Items are: index 1 = 12
+Items are: index 2 = 5
+Items are: index 3 = 0
+Items are: index 4 = 7
+Enter five integers one number per line
+11
+22
+33
+44
+55
+The sum of the numbers = 165
+The numbers in reverse order are: 
+55 44 33 22 11
