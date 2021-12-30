@@ -1,0 +1,55 @@
+import java.util.Scanner;
+public class TestArray2Dimension {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a = new int[5]; //single array
+		int[] a1 = new int[5];
+		int row = 2;
+		int col = 3;
+		int[][] b = new int[row][col]; //[row][column/data] 2D array
+		int sum;
+		int totalsum;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter six number/data ");
+		totalsum = 0;
+		for(int i=0; i<row; i++) {
+			sum = 0;// buat row dulu [i] looping
+			for(int j=0; j<col; j++) {// buat collumn [j]
+				b[i][j]=scan.nextInt();
+			sum = sum + b[i][j];
+		    }
+		System.out.println("Sum = " + sum);
+		totalsum = totalsum + sum;
+		System.out.println("Total Sum = " + totalsum);
+	}
+
+
+	
+		for(int i=0; i<row; i++) { // buat row dulu [i]
+			for(int j=0; j<col; j++) // buat collumn [j]
+				System.out.println("Row = " + i + " " + "Column = " + j + " " + b[i][j]);
+         }
+	}
+}
+		
+		/*System.out.println("Enter five number ");
+		for(int i=0; i<a.length; i++)
+			a[i] = scan.nextInt();
+		    
+		for(int i=0; i<a.length; i++)
+			a1[i] = scan.nextInt();
+		
+		for(int i=0; i<a.length; i++)
+			System.out.println("Row a = " + a[1]);
+		
+		for(int i=0; i<a.length; i++)
+			System.out.println("Row a = " + a1[1]);
+			*/
+
+	
+
+
+
