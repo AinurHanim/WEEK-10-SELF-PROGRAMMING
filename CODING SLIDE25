@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Slide25 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] nameList = new String[5];
+		nameList[0] = "Amanda Green";
+		nameList[1] = "Vijay Arora";
+		nameList[2] = "Sheila Mann";
+		nameList[3] = "Rohit Sharma";
+		nameList[4] = "Mandy Johnson";
+		
+		System.out.println("Welcome " + nameList[1] + " and " + nameList[4]);
+				
+				
+		
+
+	}
+
+}
