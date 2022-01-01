@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Slide19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] sales = new double[10];
+		int index;
+		double sum, average;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		for(index = 0; index<sales.length; index++)
+			sales[index] = 10.00;
+		for(index = 0; index<sales.length; index++)
+			sales[index] = scan.nextDouble();
+		for(index = 0; index<sales.length; index++)
+		    System.out.println(sales[index] + " ");
+		
+		sum = 0;
+		for(index = 0; index<sales.length; index++)
+			sum = sum + sales[index];
+		
+		if(sales.length != 0)
+			average = sum/sales.length;
+		else
+			average = 0.0;
+		
+		System.out.println("Sum is " + sum);
+		System.out.println("Average is " + average);
+
+	}
+
+}
