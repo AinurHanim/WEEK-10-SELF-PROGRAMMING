@@ -1,0 +1,26 @@
+
+public class ArrayFindingIndex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] num = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; //position [0,1,2,3,4,5,6,7,8,9]
+		System.out.println("Index position of 8 is " + (num[9]));
+		System.out.println("Index position of 4 is " + (num[4]));
+	}
+	
+	public static int findIndex (int[] num, int t)
+	{
+		if (num == null) return -1;
+		int len = num.length;
+		int i = 0;
+		while (i<len)
+		{
+			if(num[i] == t) return i;
+			else i=i+1;
+		}
+		return -1;
+		
+
+	}
+
+}
